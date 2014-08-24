@@ -1,0 +1,19 @@
+{
+  "name": "clappr-component",
+  "version": "0.0.0",
+  "authors": [
+    "thiagopnts <thiagopnts@gmail.com>"
+  ],
+  "main": "main.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.3.5"
+  }
+}

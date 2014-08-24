@@ -1,0 +1,13 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+<script type="text/javascript" charset="utf-8" src="clappr.js"> </script>
+
+<polymer-element name="clappr-player" attributes="src">
+  <script>
+  Polymer('clappr-player', {
+    prototype: HTMLDivElement.prototype,
+    ready: function() {
+      new WP3.Player({sources: [this.src]}).attachTo(this);
+    }
+  });
+  </script>
+</polymer-element>
